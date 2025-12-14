@@ -1,0 +1,6 @@
+def write_json(r, o):
+    ...
+
+
+def write_markdown(r, o):
+    ...

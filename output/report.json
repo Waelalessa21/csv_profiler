@@ -1,0 +1,25 @@
+{
+  "rows": 4,
+  "columns": {
+    "name": {
+      "type": "text",
+      "missing": 0
+    },
+    "age": {
+      "type": "number",
+      "missing": 1,
+      "count": 3,
+      "unique": 3
+    },
+    "city": {
+      "type": "text",
+      "missing": 1
+    },
+    "salary": {
+      "type": "number",
+      "missing": 1,
+      "count": 3,
+      "unique": 3
+    }
+  }
+}

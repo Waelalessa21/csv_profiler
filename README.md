@@ -8,7 +8,9 @@ uv venv
 source .venv/bin/activate
 ```
 ### install dependnecy
+```bash
 uv pip install typer 
+```
 
 ### Generate report in md and json 
 

@@ -2,10 +2,7 @@
 
 
 ### Setup
-
-- Requires **Python 3.10+**
 - (Optional) create & activate a virtual environment
-
 ```bash
 python uv .venv
 source .venv/bin/activate

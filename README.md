@@ -28,10 +28,10 @@ source .venv/bin/activate
 ### Generate report in md and json 
 
 Using forward slashes (works on all OS)
-python -m csv_profiler.cli profile-csv data/sample.csv output/cli.json output/cli.md
+PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 
 Using backslashes (Windows native style)
-python -m csv_profiler.cli profile-csv data\sample.csv output\cli.json output\cli.md
+$env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data\sample.csv" "output\cli.json" "output\cli.md"
 
 Outputs:
 - `output/cli.json`

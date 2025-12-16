@@ -10,6 +10,8 @@
 
 - `src/csv_profiler/cli.py`: Provides command-line interface commands using Typer, allowing users to interact with the CSV profiler easily.
 
+- `src/csv_profiler/helper.py`: Helper class the contains the functions used in bacsic profile.
+
 - `src/main.py`: Entry point of the application that ties together the CSV reading, profiling, and report generation modules.
     
 
@@ -25,8 +27,11 @@ source .venv/bin/activate
 
 ### Generate report in md and json 
 
-run the following command in terminal:
-- python -m csv_profiler.cli profile-csv data/sample.csv output/cli.json output/cli.md
+Using forward slashes (works on all OS)
+python -m csv_profiler.cli profile-csv data/sample.csv output/cli.json output/cli.md
+
+Using backslashes (Windows native style)
+python -m csv_profiler.cli profile-csv data\sample.csv output\cli.json output\cli.md
 
 Outputs:
 - `output/cli.json`

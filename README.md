@@ -21,7 +21,7 @@
 - (Optional) create & activate a virtual environment
 
 ```bash
-python -m venv .venv
+python uv .venv
 source .venv/bin/activate
 ```
 
@@ -30,7 +30,6 @@ source .venv/bin/activate
 Using forward slashes (works on all OS)
 PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 
-Using backslashes (Windows native style)
 $env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data\sample.csv" "output\cli.json" "output\cli.md"
 
 Outputs:

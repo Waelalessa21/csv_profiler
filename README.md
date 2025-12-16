@@ -14,9 +14,6 @@ source .venv/bin/activate
 PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```
 
-```bash
-$env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data\sample.csv" "output\cli.json" "output\cli.md"
-```
 
 
 Outputs:

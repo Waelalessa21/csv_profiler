@@ -13,7 +13,6 @@ source .venv/bin/activate
 
 ### Generate report in md and json 
 
-Using forward slashes (works on all OS)
 ```bash
 PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```

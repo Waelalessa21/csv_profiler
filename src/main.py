@@ -8,7 +8,7 @@ def main() -> None:
     report = basic_profile(rows)
     write_json(report, "output/report.json")
     write_markdown(report, "output/report.md")
-    print("Wrote output/report.json and output/report.md")
+    print("Wrote data/report.json and data/report.md")
 
 
 if __name__ == "__main__":

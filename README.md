@@ -10,7 +10,7 @@ uv venv
 source .venv/bin/activate
 ```
 
-###To generate reports using cli "Typer"
+### Generating reports using cli "Typer"
 ### install dependnecy
 ```bash
 uv pip install typer 
@@ -34,7 +34,7 @@ Outputs:
 
 
 
-### To generate report using "Streamlit ui"
+### Generating reports using "Streamlit ui"
 
 
 

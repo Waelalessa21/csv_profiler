@@ -18,11 +18,11 @@ uv pip install typer
 
 ### Generate report in md and json
 
-##Mac
+### Mac / Linux
 ```bash
 PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```
-##Windows
+### Windows
 ```bash
 $env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```

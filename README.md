@@ -1,6 +1,8 @@
 ## CSV Profiler
 
 
+
+
 ### Setup
 - (Optional) create & activate a virtual environment
 ```bash
@@ -12,15 +14,25 @@ source .venv/bin/activate
 uv pip install typer 
 ```
 
-### Generate report in md and json 
+### Generate report in md and json using "Typer"
 
 ```bash
 PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```
 
+```bash
+$env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
+```
+
 Outputs:
 - `output/cli.json`
 - `output/cli.md`
+
+
+
+
+### Generate report in md and json using "Streamlit ui"
+
 
 
 

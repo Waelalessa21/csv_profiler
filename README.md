@@ -9,17 +9,20 @@
 uv venv
 source .venv/bin/activate
 ```
+
+###To generate reports using cli "Typer"
 ### install dependnecy
 ```bash
 uv pip install typer 
 ```
 
-### Generate report in md and json using "Typer"
+### Generate report in md and json
 
+##Mac
 ```bash
 PYTHONPATH=src python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```
-
+##Windows
 ```bash
 $env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data/sample.csv" "data/cli.json" "data/cli.md"
 ```
@@ -31,7 +34,7 @@ Outputs:
 
 
 
-### Generate report in md and json using "Streamlit ui"
+### To generate report using "Streamlit ui"
 
 
 

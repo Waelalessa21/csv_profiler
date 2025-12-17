@@ -28,8 +28,8 @@ $env:PYTHONPATH="src"; python -m csv_profiler.cli profile-csv "data/sample.csv" 
 ```
 
 Outputs:
-- `output/cli.json`
-- `output/cli.md`
+- `data/cli.json`
+- `data/cli.md`
 
 
 

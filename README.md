@@ -54,4 +54,7 @@ Outputs:
 - `Streamlit inteface`
 
 
+### Live version 
+- https://web-production-32cb5a.up.railway.app/
+
 

@@ -36,7 +36,21 @@ Outputs:
 
 ### Generating reports using "Streamlit ui"
 
+### install dependnecy
+```bash
+uv pip install streamlit 
+```
 
+### Mac / Linux
+```bash
+PYTHONPATH=src streamlit run src/csv_profiler/ui.py
+```
+### Windows
+```bash
+$env:PYTHONPATH="src"; streamlit run src/csv_profiler/ui.py
+```
 
+outputs:
+http://localhost:"portnumber"
 
 

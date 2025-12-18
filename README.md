@@ -51,6 +51,7 @@ $env:PYTHONPATH="src"; streamlit run src/csv_profiler/ui.py
 ```
 
 outputs:
-http://localhost:"portnumber"
+- http://localhost:$portnumber
+
 
 

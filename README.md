@@ -11,7 +11,7 @@ source .venv/bin/activate
 ```
 
 ### Generating reports using cli "Typer"
-### install dependnecy
+### install dependency
 ```bash
 uv pip install typer 
 ```
@@ -36,7 +36,7 @@ Outputs:
 
 ### Generating reports using "Streamlit ui"
 
-### install dependnecy
+### install dependency
 ```bash
 uv pip install streamlit 
 ```
@@ -51,7 +51,10 @@ $env:PYTHONPATH="src"; streamlit run src/csv_profiler/ui.py
 ```
 
 Outputs:
-- `Streamlit inteface`
+- `Streamlit interface`
+
+- <img width="1470" height="956" alt="image" src="https://github.com/user-attachments/assets/9906cc99-e546-46f0-aaab-0652742153db" />
+
 
 
 ### Live version 

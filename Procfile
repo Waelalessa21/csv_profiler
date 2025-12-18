@@ -1,0 +1,1 @@
+web: streamlit run src/csv_profiler/ui.py --server.port $PORT --server.address 0.0.0.0

@@ -1,8 +1,7 @@
-import csv
-from io import StringIO
 from pathlib import Path
 import streamlit as st
 
+from csv_profiler.error_handler import check_csv_file
 from csv_profiler.profile import basic_profile
 from csv_profiler.render import render_json, render_markdown
 
@@ -25,7 +24,15 @@ if uploaded_file is not None:
     file_text = file_bytes.decode("utf-8", errors="replace")
 
     if st.button("Profile CSV"):
-        rows = list(csv.DictReader(StringIO(file_text)))
+        st.session_state.report = None
+        st.session_state.report_json = None
+        st.session_state.report_md = None
+
+        rows, error_message = check_csv_file(file_text)
+        if error_message:
+            st.error(error_message)
+            st.stop()
+
         report = basic_profile(rows)
 
         st.session_state.report = report

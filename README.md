@@ -50,8 +50,8 @@ PYTHONPATH=src streamlit run src/csv_profiler/ui.py
 $env:PYTHONPATH="src"; streamlit run src/csv_profiler/ui.py
 ```
 
-outputs:
-- streamlit interface
+Outputs:
+- `Streamlit inteface`
 
 
 
